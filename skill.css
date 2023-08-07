@@ -1,0 +1,62 @@
+        .skill {
+            margin-bottom: 70px;
+            text-align: center;
+            /* Center the skill content */
+        }
+
+        .skill-name {
+            display: block;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .progress-bar {
+            width: 60%;
+            /* Set the width of the progress bar */
+            margin: 0 auto;
+            /* Center the progress bar */
+            background-color: #eee;
+            border-radius: 6px;
+            height: 15px;
+            overflow: hidden;
+        }
+
+        #progress-wd {
+            width: 80%;
+            /* The progress width is always 100% within the progress bar */
+            height: 100%;
+            background-color: rgb(170, 107, 228);
+            /* Change color as needed */
+        }
+
+        #progress-ml {
+            width: 90%;
+            /* The progress width is always 100% within the progress bar */
+            height: 100%;
+            background-color: rgb(170, 107, 228);
+            /* Change color as needed */
+        }
+
+        #progress-gd {
+            width: 60%;
+            /* The progress width is always 100% within the progress bar */
+            height: 100%;
+            background-color: rgb(170, 107, 228);
+            /* Change color as needed */
+        }
+
+        #progress-ds {
+            width: 75%;
+            /* The progress width is always 100% within the progress bar */
+            height: 100%;
+            background-color: rgb(170, 107, 228);
+            /* Change color as needed */
+        }
+
+        #progress-sql {
+            width: 56%;
+            /* The progress width is always 100% within the progress bar */
+            height: 100%;
+            background-color: rgb(170, 107, 228);
+            /* Change color as needed */
+        }

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="scroll.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.06rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.95rem;
+        }
+
+        .leftSection .button {
+            margin-top: 70px;
+            padding: 40px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(170, 107, 228);
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+            width: 100%;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 90vh;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(170, 107, 228);
+            height: 1.7px;
+            margin: 50px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgb(18, 18, 62);
+            height: 200px;
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 50px 122px;
+            padding: 30px 30px;
+            justify-content: space-evenly
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 120px
+        }
+
+        .footer li {
+            margin-bottom: 10px;
+        }
+        .btn{
+        
+        text-decoration: none;
+        
+        }
+
+        @media screen and (max-width: 1400px) {
+            .firstSection {
+                flex-direction: column-reverse;
+            }
+
+            .leftSection {
+                font-size: 2.1rem;
+            }
+
+            .rightSection {
+                width: 720px !important;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .firstSection {
+                flex-direction: column-reverse;
+            }
+
+            .leftSection {
+                width: 100% !important;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                font-size: 1.5rem;
+            }
+
+            .rightSection {
+                width: 300px !important;
+            }
+
+            body {
+                min-width: fit-content;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                My Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+
+            <div class="leftSection">
+
+                Hi! &#128075 I am <span class="purple">Aayush</span>
+                <br>
+                I am a <span class="purple">Student</span> who is interested in
+                <span id="element"></span>
+
+                <div class="button">
+                    <a class="btn" href=''>Download Resume</a>
+                    <a class="btn" href='https://github.com/JhaAayush'>Visit Github</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/kindpng_41409.png" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>My Skills</h1>
+            <div class="skill">
+                <span class="skill-name">Web Development</span>
+                <div class="progress-bar">
+                    <div id="progress-wd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Machine Learning</span>
+                <div class="progress-bar">
+                    <div id="progress-ml"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Game Development</span>
+                <div class="progress-bar">
+                    <div id="progress-gd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Data Analysis</span>
+                <div class="progress-bar">
+                    <div id="progress-ds"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">SQL</span>
+                <div class="progress-bar">
+                    <div id="progress-sql"></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>My Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li><a href="https://github.com/JhaAayush"><i class="fa fa-github"></i>&nbsp;&nbsp;Github</a></li>
+                        <li><a href="https://www.instagram.com/aayush_jha_49/"><i class="fa fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/aayush-jha-a22ba3220/"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Development.', 'Machine Learning.', '&amp; Game Development.'],
+            typeSpeed: 70,
+        });
+
+    </script>
+</body>
+
+</html>

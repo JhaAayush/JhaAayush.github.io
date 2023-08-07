@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* The scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(170, 107, 228);
+    border-radius: 6px;
+}
+
+/* The scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(155, 80, 225);
+}
+
+/* The scrollbar thumb when active/dragged */
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(170, 107, 228);
+}
+
+/* The scrollbar track (make it disappear) */
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 33);
+}
+
+/* The scrollbar track piece above the thumb */
+::-webkit-scrollbar-track-piece {
+    background-color: rgb(0, 0, 33);
+}
